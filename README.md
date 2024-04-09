@@ -42,3 +42,21 @@ Trading App provides basic CRUD operations for a trading service
 2. Use REST API endpoints to create and manage entities (securities, users, orders, trades).
 3. Refer to the API documentation available in the Swagger/OpenAPI interface for detailed information about available endpoints and their functionalities.
 4. Test the user story scenario to ensure the platform's functionality.
+
+
+## User Story: Example
+
+- **Given**:
+  - A security named "WSB" exists.
+  - Two users, "Diamond" and "Paper," are participating in the trading.
+
+- **When**:
+  - User "Diamond" places a buy order for 50 units of security "WSB" at a price of $101 per unit.
+- **And**:
+  - User "Paper" places a sell order for 100 units of security "WSB" at a price of $100 per unit.
+
+- **Then**:
+  - A trade occurs between "Diamond" and "Paper" for security "WSB."
+  - The trade executes at a price of $100 per unit.
+  - The quantity traded is 50 units of "WSB."
+
