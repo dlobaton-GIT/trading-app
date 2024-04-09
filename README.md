@@ -48,7 +48,7 @@ Trading App provides basic CRUD operations for a trading service
 
 - **Given**:
   - A security named "WSB" exists.
-  - Two users, "Diamond" and "Paper," are participating in the trading.
+  - Two users, "Diamond" and "Paper," exist.
 
 - **When**:
   - User "Diamond" places a buy order for 50 units of security "WSB" at a price of $101 per unit.
