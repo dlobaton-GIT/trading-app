@@ -29,7 +29,7 @@ Trading App provides basic CRUD operations for a trading service
 
 ### Build
 
-1. Clone the repository from GitHub/GitLab/Bitbucket.
+1. Clone the repository from GitHub.
 2. Navigate to the project directory.
 3. Build the project using Maven.
 
