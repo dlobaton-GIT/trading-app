@@ -19,7 +19,7 @@ Trading App provides basic CRUD operations for a trading service
 | Orders     | id, user_id, security_id, type, price, quantity, full_filled |     Named as 'Orders' because 'Order' is a reserved word in JAVA and SQL         |
 | Trade     | id, sell_order_id, buy_order_id, price, quantity  |              |
 
-> Upon application startup, three users are automatically created, eliminating the need for user creation methods. See below for test user data:
+> At the start of the application, 3 users are created automatically, which is enough to test all the functionalities. For this reason, no methods for creating users are provided. See user data for test purposes:
 
 | User ID | Username | Password |
 |---------|----------|----------|
