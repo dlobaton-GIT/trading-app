@@ -56,7 +56,5 @@ Trading App provides basic CRUD operations for a trading service
   - User "Paper" places a sell order for 100 units of security "WSB" at a price of $100 per unit.
 
 - **Then**:
-  - A trade occurs between "Diamond" and "Paper" for security "WSB."
-  - The trade executes at a price of $100 per unit.
-  - The quantity traded is 50 units of "WSB."
+  - A trade occurs between "Diamond" and "Paper" with the price of 100 and quantity of 50
 
